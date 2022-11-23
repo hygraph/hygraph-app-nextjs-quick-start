@@ -1,6 +1,12 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import type { AppProps } from "next/app";
+import { BaukastenProvider } from "@hygraph/baukasten";
+
+import "@fontsource/inter/variable-full.css";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+    return (
+        <BaukastenProvider>
+            <Component {...pageProps} />
+        </BaukastenProvider>
+    );
 }
