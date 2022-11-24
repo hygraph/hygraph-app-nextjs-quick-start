@@ -16,9 +16,9 @@ npx create-next-app --example https://github.com/hygraph/hygraph-app-boilerplate
 Follow [these instructions](#todo) to register an app on Hygraph.
 
 3. **Start building!**
-Install the dependencies and start the Nextjs dev server
+Navigate to your app directory and start the Nextjs dev server
 
 ```
-yarn
+cd my-hygraph-app
 yarn dev
 ```
