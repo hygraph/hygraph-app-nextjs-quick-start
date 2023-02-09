@@ -1,13 +1,13 @@
-# hygraph-app-boilerplate
+# hygraph-app-nextjs-quick-start
 
-> A Hygraph app boilerplate for building apps for Hygraph
+> A Hygraph boilerplate for building apps for 
 
 ## Quick Start
 
 1. **Create a new Nextjs project via the Next CLI**
 
 ```
-npx create-next-app --example https://github.com/hygraph/hygraph-app-boilerplate my-hygraph-app
+npx create-next-app --example https://github.com/hygraph/hygraph-app-nextjs-quick-start my-hygraph-app
 ```
 
 2. **Register your app on Hygraph**
